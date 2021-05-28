@@ -7,7 +7,7 @@ These repositories are made by MUJ ACM S-Chap are to help developers like you ge
 ## In This Repository
 In this repository we are using NodeMCU (with esp8266 wifi module) to connect with our server from which we can control the actuators and get data from senors that are connected to our nodemcu.
 To start with we have added simple route on our server /api/nodemcu which returns the state of the led. so the the route gets called by our NodeMCU we can change the state of LED. 
-You can clone server from []()
+You can clone server from [NodeMCU Server](https://github.com/mujacm/iot_nodemcu_server)
 The main aim of the repository is to help you learn about basic in IoT.
 you can add you .ino file with various feature in the contributions folder and can also locally change server routes by cloning the repo mentioned above.
 
