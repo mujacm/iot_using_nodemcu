@@ -10,7 +10,7 @@ char jsonOutput[128];
 
 void setup() {
   Serial.begin(115200);                 //Serial connection
-  WiFi.begin("kathan","kathan3009");   //WiFi connection // first is your wifi name // second is your wifi password
+  WiFi.begin("usrname","password");   //WiFi connection // first is your wifi name // second is your wifi password
 
   while (WiFi.status() != WL_CONNECTED) {  //Wait for the WiFI connection completion
 
@@ -36,7 +36,7 @@ void loop() {
     object["msg"] = "hello"; // we send this data to the server
     serializeJson(doc,jsonOutput);
     
-    http.begin("http://backend-try.herokuapp.com/api/nodemcu");      //Specify request destination
+    http.begin("yourlocalhosturl");      //Specify request destination
     http.addHeader("Content-Type", "application/json");
     int httpCode = http.POST(String(jsonOutput));   //Send the request
     String payload = http.getString();   //Get the response payload

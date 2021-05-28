@@ -13,7 +13,11 @@ you can add you .ino file with various feature in the contributions folder and c
 
 We have added refernce material for you to easily learn things.
 
-> NOTE: To add more commands add your command script to contributions folder.
+#### how to connect ? 
+To connect the nodemcu with wifi: 
+1. connect the nodemcu with your computer.
+2. change the wifi credentials.
+3. change the server link to your locally hosted server.
 
 ## Reference
 1. [How to include nodemcu board on arduino IDE](https://youtu.be/RVSCjCpZ_nQ)
