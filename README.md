@@ -5,19 +5,18 @@ _Hey developers, we're glad to have you here! Before you start contributing to t
 These repositories are made by MUJ ACM S-Chap are to help developers like you get started with Open Source.
 
 ## In This Repository
-In this repository we are using NodeMCU (with esp8266 wifi module) to connect with our server from which we can control the actuators and get data from senors that are connected to our nodemcu.
-To start with we have added simple route on our server /api/nodemcu which returns the state of the led. so the the route gets called by our NodeMCU we can change the state of LED. 
-You can clone server from [NodeMCU Server](https://github.com/mujacm/iot_nodemcu_server)
-The main aim of the repository is to help you learn about basic in IoT.
-you can add you .ino file with various feature in the contributions folder and can also locally change server routes by cloning the repo mentioned above.
 
-We have added refernce material for you to easily learn things.
+In this repository, we are using NodeMCU(with esp8266 wifi module) to connect with our server from which we can control the actuators and get data from senors that are connected to our nodemcu. To start with we have added simple route on our server /api/nodemcu which returns the state of the LED. So the the route gets called by our NodeMCU, and then we can change the state of LED.
+You can clone server from [NodeMCU Server](https://github.com/mujacm/iot_nodemcu_server)
+The main aim of the repository is to help you learn about basic in IoT. You can add your .ino file with various feature in the contributions folder and also locally change server routes by cloning the repository mentioned above.
+
+We have added reference material for you to learn things easily.
 
 #### how to connect ? 
 To connect the NodeMCU with wifi: 
-1. connect the NodeMCU with your computer.
-2. change the wifi credentials.
-3. change the server link to your locally hosted server.
+1. Connect the NodeMCU with your computer.
+2. Change the WiFi credentials.
+3. Change the server link to your locally hosted server.
 
 ## Reference
 1. [How to include nodemcu board on arduino IDE](https://youtu.be/RVSCjCpZ_nQ)
